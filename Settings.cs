@@ -15,6 +15,7 @@ namespace EnhancedSnake
     {
         string hoverSound = "https://www.soundjay.com/buttons/button-3.wav";
         string clickSound = "https://www.soundjay.com/buttons/button-09a.wav";
+        public static int numOfFood;
         public Settings()
         {
             InitializeComponent();
@@ -34,6 +35,31 @@ namespace EnhancedSnake
             SoundPlayer sPlayer = new SoundPlayer();
             sPlayer.SoundLocation = hoverSound;
             sPlayer.Play();
+        }
+
+        private void rbOne_Click(object sender, EventArgs e)
+        {
+            numOfFood = 1;
+        }
+
+        private void rbTwo_Click(object sender, EventArgs e)
+        {
+            numOfFood = 2;
+        }
+
+        private void rbThree_Click(object sender, EventArgs e)
+        {
+            numOfFood = 3;
+        }
+
+        private void rbFour_Click(object sender, EventArgs e)
+        {
+            numOfFood = 4;
+        }
+
+        private void rbFive_Click(object sender, EventArgs e)
+        {
+            numOfFood = 5;
         }
     }
 }

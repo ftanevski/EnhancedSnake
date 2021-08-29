@@ -11,3 +11,16 @@ C:\Users\filip\source\repos\EnhancedSnake\obj\Debug\EnhancedSnake.Settings.resou
 C:\Users\filip\source\repos\EnhancedSnake\obj\Debug\EnhancedSnake.Help.resources
 C:\Users\filip\source\repos\EnhancedSnake\obj\Debug\EnhancedSnake.MainMenu.resources
 C:\Users\filip\source\repos\EnhancedSnake\obj\Debug\EnhancedSnake.GameWindow.resources
+C:\Users\Jane\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.exe.config
+C:\Users\Jane\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.exe
+C:\Users\Jane\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.pdb
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.AssemblyReference.cache
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.GameWindow.resources
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Help.resources
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.MainMenu.resources
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Settings.resources
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Properties.Resources.resources
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.GenerateResource.cache
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.CoreCompileInputs.cache
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.exe
+C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.pdb

@@ -31,15 +31,13 @@ namespace EnhancedSnake
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.lblFood = new System.Windows.Forms.Label();
-            this.lblShowGrids = new System.Windows.Forms.Label();
-            this.chbGrids = new System.Windows.Forms.CheckBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.grbRadioButtons = new System.Windows.Forms.GroupBox();
-            this.rbOne = new System.Windows.Forms.RadioButton();
-            this.rbTwo = new System.Windows.Forms.RadioButton();
-            this.rbThree = new System.Windows.Forms.RadioButton();
-            this.rbFour = new System.Windows.Forms.RadioButton();
             this.rbFive = new System.Windows.Forms.RadioButton();
+            this.rbFour = new System.Windows.Forms.RadioButton();
+            this.rbThree = new System.Windows.Forms.RadioButton();
+            this.rbTwo = new System.Windows.Forms.RadioButton();
+            this.rbOne = new System.Windows.Forms.RadioButton();
             this.grbRadioButtons.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,26 +52,6 @@ namespace EnhancedSnake
             this.lblFood.Size = new System.Drawing.Size(134, 24);
             this.lblFood.TabIndex = 0;
             this.lblFood.Text = "Food Spawn:";
-            // 
-            // lblShowGrids
-            // 
-            this.lblShowGrids.AutoSize = true;
-            this.lblShowGrids.BackColor = System.Drawing.Color.Transparent;
-            this.lblShowGrids.Font = new System.Drawing.Font("Marlett", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShowGrids.Location = new System.Drawing.Point(121, 291);
-            this.lblShowGrids.Name = "lblShowGrids";
-            this.lblShowGrids.Size = new System.Drawing.Size(127, 24);
-            this.lblShowGrids.TabIndex = 1;
-            this.lblShowGrids.Text = "Show Grids:";
-            // 
-            // chbGrids
-            // 
-            this.chbGrids.AutoSize = true;
-            this.chbGrids.Location = new System.Drawing.Point(263, 291);
-            this.chbGrids.Name = "chbGrids";
-            this.chbGrids.Size = new System.Drawing.Size(18, 17);
-            this.chbGrids.TabIndex = 2;
-            this.chbGrids.UseVisualStyleBackColor = true;
             // 
             // btnBack
             // 
@@ -104,38 +82,17 @@ namespace EnhancedSnake
             this.grbRadioButtons.TabIndex = 4;
             this.grbRadioButtons.TabStop = false;
             // 
-            // rbOne
+            // rbFive
             // 
-            this.rbOne.AutoSize = true;
-            this.rbOne.Location = new System.Drawing.Point(25, 23);
-            this.rbOne.Name = "rbOne";
-            this.rbOne.Size = new System.Drawing.Size(39, 24);
-            this.rbOne.TabIndex = 0;
-            this.rbOne.TabStop = true;
-            this.rbOne.Text = "1";
-            this.rbOne.UseVisualStyleBackColor = true;
-            // 
-            // rbTwo
-            // 
-            this.rbTwo.AutoSize = true;
-            this.rbTwo.Location = new System.Drawing.Point(85, 23);
-            this.rbTwo.Name = "rbTwo";
-            this.rbTwo.Size = new System.Drawing.Size(39, 24);
-            this.rbTwo.TabIndex = 1;
-            this.rbTwo.TabStop = true;
-            this.rbTwo.Text = "2";
-            this.rbTwo.UseVisualStyleBackColor = true;
-            // 
-            // rbThree
-            // 
-            this.rbThree.AutoSize = true;
-            this.rbThree.Location = new System.Drawing.Point(145, 23);
-            this.rbThree.Name = "rbThree";
-            this.rbThree.Size = new System.Drawing.Size(39, 24);
-            this.rbThree.TabIndex = 2;
-            this.rbThree.TabStop = true;
-            this.rbThree.Text = "3";
-            this.rbThree.UseVisualStyleBackColor = true;
+            this.rbFive.AutoSize = true;
+            this.rbFive.Location = new System.Drawing.Point(265, 23);
+            this.rbFive.Name = "rbFive";
+            this.rbFive.Size = new System.Drawing.Size(39, 24);
+            this.rbFive.TabIndex = 4;
+            this.rbFive.TabStop = true;
+            this.rbFive.Text = "5";
+            this.rbFive.UseVisualStyleBackColor = true;
+            this.rbFive.Click += new System.EventHandler(this.rbFive_Click);
             // 
             // rbFour
             // 
@@ -147,17 +104,43 @@ namespace EnhancedSnake
             this.rbFour.TabStop = true;
             this.rbFour.Text = "4";
             this.rbFour.UseVisualStyleBackColor = true;
+            this.rbFour.Click += new System.EventHandler(this.rbFour_Click);
             // 
-            // rbFive
+            // rbThree
             // 
-            this.rbFive.AutoSize = true;
-            this.rbFive.Location = new System.Drawing.Point(265, 23);
-            this.rbFive.Name = "rbFive";
-            this.rbFive.Size = new System.Drawing.Size(39, 24);
-            this.rbFive.TabIndex = 4;
-            this.rbFive.TabStop = true;
-            this.rbFive.Text = "5";
-            this.rbFive.UseVisualStyleBackColor = true;
+            this.rbThree.AutoSize = true;
+            this.rbThree.Location = new System.Drawing.Point(145, 23);
+            this.rbThree.Name = "rbThree";
+            this.rbThree.Size = new System.Drawing.Size(39, 24);
+            this.rbThree.TabIndex = 2;
+            this.rbThree.TabStop = true;
+            this.rbThree.Text = "3";
+            this.rbThree.UseVisualStyleBackColor = true;
+            this.rbThree.Click += new System.EventHandler(this.rbThree_Click);
+            // 
+            // rbTwo
+            // 
+            this.rbTwo.AutoSize = true;
+            this.rbTwo.Location = new System.Drawing.Point(85, 23);
+            this.rbTwo.Name = "rbTwo";
+            this.rbTwo.Size = new System.Drawing.Size(39, 24);
+            this.rbTwo.TabIndex = 1;
+            this.rbTwo.TabStop = true;
+            this.rbTwo.Text = "2";
+            this.rbTwo.UseVisualStyleBackColor = true;
+            this.rbTwo.Click += new System.EventHandler(this.rbTwo_Click);
+            // 
+            // rbOne
+            // 
+            this.rbOne.AutoSize = true;
+            this.rbOne.Location = new System.Drawing.Point(25, 23);
+            this.rbOne.Name = "rbOne";
+            this.rbOne.Size = new System.Drawing.Size(39, 24);
+            this.rbOne.TabIndex = 0;
+            this.rbOne.TabStop = true;
+            this.rbOne.Text = "1";
+            this.rbOne.UseVisualStyleBackColor = true;
+            this.rbOne.Click += new System.EventHandler(this.rbOne_Click);
             // 
             // Settings
             // 
@@ -168,8 +151,6 @@ namespace EnhancedSnake
             this.ClientSize = new System.Drawing.Size(974, 643);
             this.Controls.Add(this.grbRadioButtons);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.chbGrids);
-            this.Controls.Add(this.lblShowGrids);
             this.Controls.Add(this.lblFood);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -185,8 +166,6 @@ namespace EnhancedSnake
         #endregion
 
         private System.Windows.Forms.Label lblFood;
-        private System.Windows.Forms.Label lblShowGrids;
-        private System.Windows.Forms.CheckBox chbGrids;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.GroupBox grbRadioButtons;
         private System.Windows.Forms.RadioButton rbThree;
