@@ -41,15 +41,16 @@ namespace EnhancedSnake
             // picCanvas
             // 
             this.picCanvas.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.picCanvas.Location = new System.Drawing.Point(0, -1);
+            this.picCanvas.Location = new System.Drawing.Point(3, 4);
             this.picCanvas.Name = "picCanvas";
-            this.picCanvas.Size = new System.Drawing.Size(869, 646);
+            this.picCanvas.Size = new System.Drawing.Size(866, 637);
             this.picCanvas.TabIndex = 0;
             this.picCanvas.TabStop = false;
             this.picCanvas.Paint += new System.Windows.Forms.PaintEventHandler(this.UpdatePictureBoxGraphics);
             // 
             // GameTimer
             // 
+            this.GameTimer.Interval = 50;
             this.GameTimer.Tick += new System.EventHandler(this.GameTimerEvent);
             // 
             // txtHighScore

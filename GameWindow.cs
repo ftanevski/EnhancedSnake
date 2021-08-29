@@ -152,7 +152,7 @@ namespace EnhancedSnake
 
             Snake.Clear();
 
-            Snake_and_food head = new Snake_and_food { X = 435, Y = 323 };
+            Snake_and_food head = new Snake_and_food { X = 10, Y = 5 };
             Snake.Add(head);
 
             for (int i = 0; i<5; i++)
