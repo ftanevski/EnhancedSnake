@@ -33,6 +33,8 @@ namespace EnhancedSnake
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameWindow));
             this.picCanvas = new System.Windows.Forms.PictureBox();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
+            this.txtHighScore = new System.Windows.Forms.Label();
+            this.txtScore = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,6 +52,22 @@ namespace EnhancedSnake
             // 
             this.GameTimer.Tick += new System.EventHandler(this.GameTimerEvent);
             // 
+            // txtHighScore
+            // 
+            this.txtHighScore.AutoSize = true;
+            this.txtHighScore.Location = new System.Drawing.Point(894, 44);
+            this.txtHighScore.Name = "txtHighScore";
+            this.txtHighScore.Size = new System.Drawing.Size(0, 17);
+            this.txtHighScore.TabIndex = 1;
+            // 
+            // txtScore
+            // 
+            this.txtScore.AutoSize = true;
+            this.txtScore.Location = new System.Drawing.Point(893, 152);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(0, 17);
+            this.txtScore.TabIndex = 2;
+            // 
             // GameWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -57,6 +75,8 @@ namespace EnhancedSnake
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(974, 643);
+            this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.txtHighScore);
             this.Controls.Add(this.picCanvas);
             this.Name = "GameWindow";
             this.Text = "GameWindow";
@@ -65,6 +85,7 @@ namespace EnhancedSnake
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyIsUp);
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -72,5 +93,7 @@ namespace EnhancedSnake
 
         private System.Windows.Forms.PictureBox picCanvas;
         private System.Windows.Forms.Timer GameTimer;
+        private System.Windows.Forms.Label txtHighScore;
+        private System.Windows.Forms.Label txtScore;
     }
 }

@@ -31,6 +31,9 @@ namespace EnhancedSnake
             SoundPlayer sPlayer = new SoundPlayer();
             sPlayer.SoundLocation = clickSound;
             sPlayer.Play();
+
+            GameWindow gw = new GameWindow();
+            gw.ShowDialog();
         }
 
         private void btnPlayGame_MouseHover(object sender, EventArgs e)

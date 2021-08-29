@@ -24,3 +24,16 @@ C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.GenerateResou
 C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.CoreCompileInputs.cache
 C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.exe
 C:\Users\Jane\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.pdb
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.GameWindow.resources
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Help.resources
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.MainMenu.resources
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Settings.resources
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.Properties.Resources.resources
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.GenerateResource.cache
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.exe
+C:\Users\filip\Desktop\EnhancedSnake\obj\Debug\EnhancedSnake.pdb
+C:\Users\filip\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.exe.config
+C:\Users\filip\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.exe
+C:\Users\filip\Desktop\EnhancedSnake\bin\Debug\EnhancedSnake.pdb
